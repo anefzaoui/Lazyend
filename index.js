@@ -13,8 +13,6 @@ function fullproject(name) {
     }
     console.log(dirname + ' has been created! Happy frontend-ing!');
   });
-
-
 }
 
 program
