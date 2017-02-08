@@ -2,7 +2,10 @@
 Cross-platform CLI tool to create HTML5 boilerplate on the go.
 
 ## Installation
-You can install it from NPMJS via: https://www.npmjs.com/package/lazyend.
+You can install it by running
+```
+npm install -g lazyend
+```
 
 ## Usage
 To create a new project simply run:
