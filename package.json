@@ -1,7 +1,7 @@
 {
-  "name": "nefzaoui",
+  "name": "lazyend",
   "version": "0.0.1",
-  "description": "Lazyend helps you create boilerplate HTML5 projects with all the files needed with a single command.",
+  "description": "Lazyend helps you create boilerplate HTML5 projects with all the files needed with only a single command.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
