@@ -1,0 +1,24 @@
+{
+  "name": "nefzaoui",
+  "version": "0.0.1",
+  "description": "Lazyend helps you create boilerplate HTML5 projects with all the files needed with a single command.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html5",
+    "html",
+    "css",
+    "js",
+    "javascript",
+    "frontend",
+    "boilerplate"
+  ],
+  "author": "Ahmed Nefzaoui",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "ncp": "^2.0.0"
+  }
+}
