@@ -1,7 +1,7 @@
 {
   "name": "lazyend",
-  "version": "0.0.3",
-  "description": "Lazyend helps you create boilerplate HTML5 projects with all the files needed with only a single command.",
+  "version": "0.0.4",
+  "description": "Lazyend helps you create HTML5 boilerplate projects with all the needed files with only a single command.",
   "main": "index.js",
   "bin": {
     "lazyend": "index.js"
