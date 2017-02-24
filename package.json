@@ -1,6 +1,6 @@
 {
   "name": "lazyend",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Lazyend helps you create HTML5 boilerplate projects with all the needed files with only a single command.",
   "main": "index.js",
   "bin": {
@@ -8,6 +8,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anefzaoui/Lazyend.git"
   },
   "keywords": [
     "html5",
