@@ -1,5 +1,4 @@
 # Lazyend
-============
 
 [![npm version](https://img.shields.io/npm/v/lazyend.svg)](https://www.npmjs.com/package/lazyend)
 
