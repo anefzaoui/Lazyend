@@ -5,7 +5,7 @@
 const program = require('commander');
 const ncp = require('ncp');
 
-function fullproject(name) {
+function createNewProject(name) {
   let dirname = name;
   ncp(__dirname + '/boilerplate/', process.cwd() + '/' + name, function(err) {
     if (err) {
@@ -18,5 +18,5 @@ function fullproject(name) {
 program
   .version('0.0.1')
   .usage('[options]')
-  .option('-c, --create <name>', 'Create a full boilerplate project', fullproject)
+  .option('-c, --create <name>', 'Create a full boilerplate project', createNewProject)
   .parse(process.argv);

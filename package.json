@@ -1,13 +1,15 @@
 {
   "name": "lazyend",
-  "version": "0.0.5",
-  "description": "Lazyend helps you create HTML5 boilerplate projects with all the needed files with only a single command.",
+  "version": "0.0.0-development",
+  "description": "Lazyend helps you create HTML5 boilerplate projects with just a single command.",
   "main": "index.js",
   "bin": {
-    "lazyend": "index.js"
+    "lazyend": "src/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "git-cz ",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
@@ -23,9 +25,17 @@
     "boilerplate"
   ],
   "author": "Ahmed Nefzaoui",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "commander": "^2.9.0",
     "ncp": "^2.0.0"
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "semantic-release": "^8.2.0"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   }
 }
